@@ -8,6 +8,7 @@
     width: 60%;
     margin: auto;
     overflow: hidden;
+    position: relative;
 }
 
 .carousel-slide {
@@ -18,4 +19,30 @@
 
 .carousel-slide img {
     width: 100%;
+}
+
+.btn {
+    width: 80%;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {    
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.btn i {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.btn i:hover {
+    transform: scale(1.2);
+    color: #fff;
 }
